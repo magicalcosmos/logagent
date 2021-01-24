@@ -48,6 +48,7 @@ func main() {
 		fmt.Printf("get ip failed, err: %v\n", err)
 	}
 	etcdConfKey := fmt.Sprintf(cfg.EtcdConf.Key, ip)
+	fmt.Printf("etcd conf key: %v", etcdConfKey)
 	// 2.1 从etcd中获取日志收集项的配置信息
 	logEntryConf, err := etcd.GetConf(etcdConfKey)
 	if err != nil {

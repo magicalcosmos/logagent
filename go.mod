@@ -22,6 +22,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/hpcloud/tail v1.0.0
 	github.com/jonboulle/clockwork v0.2.2 // indirect
+	github.com/olivere/elastic/v7 v7.0.22 // indirect
 	github.com/prometheus/client_golang v1.9.0 // indirect
 	github.com/prometheus/procfs v0.3.0 // indirect
 	github.com/sirupsen/logrus v1.7.0 // indirect
